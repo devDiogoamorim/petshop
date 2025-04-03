@@ -1,0 +1,53 @@
+// Fonts - Inter Tight and Inter
+$title: 700 1.5rem/2rem "Inter Tight", sans-serif;
+
+$paragraph-medium: 500 0.875rem/1.5rem "Inter", sans-serif;
+$paragraph-small: 500 0.75rem/1rem "Inter", sans-serif;
+$label-large: 700 1rem/1.5rem "Inter", sans-serif;
+$label-medium: 700 0.875rem/1.5rem "Inter", sans-serif;
+$label-small: 700 0.75rem/1rem "Inter", sans-serif;
+$link: 500 0.75rem/1rem "Inter", sans-serif;
+
+// Colors
+$content-primary: #FFFFFF;
+$content-secondary: #98959D;
+$content-tertiary: #666666;
+$content-brand: #9282FA;
+
+$background-primary: #151515; 
+$background-secondary: #1E1E1E;
+$background-tertiary: #23242C;
+$background-brand: #9282FA;
+$background-highlights: #BDB4FA;
+
+$border-primary: #3E3C41;
+$border-secondary: #86818C;
+$border-brand: #9282FA;
+$border-divisor: #353339;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #14151D;
+  color: $content-primary;
+}
+
+h1 {
+  font: $title;
+}
+
+label {
+  font: $label-medium;
+  color: $content-primary;
+  width: fit-content;
+}
+
+
+
+
+
+

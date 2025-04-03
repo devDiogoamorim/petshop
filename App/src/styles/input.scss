@@ -1,0 +1,81 @@
+@import './global.scss';
+
+.input-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.75rem;
+
+  background-color: transparent;
+  border: 1px solid $border-primary;
+  border-radius: 0.5rem;
+
+  input {
+    width: 100%;
+    outline: none;
+
+    background-color: transparent;
+    color: $content-secondary;
+    font: 500 1rem/1.5 "Inter", sans-serif;
+
+    &::-webkit-calendar-picker-indicator {
+      cursor: pointer;
+      background: url("../../assets/images/arrow.svg") no-repeat;
+
+      margin-top: 0.8rem;
+    }
+  }
+}
+
+.input-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 0.75rem;
+    width: 100%;
+    border: 1px solid $border-primary;
+    border-radius: 0.5rem;
+
+    & input {
+      width: 100%;
+      background-color: transparent;
+      outline: none;
+
+      color: $content-primary;
+      font: 400 1rem/1.5 'Inter', sans-serif;
+
+      &::placeholder {
+        color: $content-secondary;
+      }
+    }
+  }
+}
+
+.time {
+  width: 100%;
+}
+
+.input-date:hover,
+.input-text div:hover,
+textarea:hover {
+  border: 1px solid $border-secondary;
+}
+
+.input-text div:has(input:focus),
+.input-date:has(input:focus),
+textarea:focus {
+  border: 1px solid $border-brand;
+}
+
+
+
+
+
+

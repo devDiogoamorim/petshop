@@ -1,0 +1,84 @@
+@import 'global.scss';
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.app-name {
+  padding: 0.75rem 1.25rem;
+  border-bottom-right-radius: 0.75rem;
+  position: absolute;
+  left: 0;
+
+  background-color: #2E2C30;
+}
+
+.container {
+  max-width: 54.437rem;
+  width: 100%;
+  padding: 3.875rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+header {
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedules {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  p {
+    font: $paragraph-medium;
+    color: $content-secondary;
+  }
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  
+  color: #050505;
+  font: $label-large;
+  background-color: $content-brand;
+  box-shadow: 0 0 20px $content-brand;
+
+  position: absolute;
+  right: 30px;
+  bottom: 33px;
+  transition: background 0.1s ease-in;
+
+  &:hover {
+    background-color: #BDB4FA;
+  }
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  backdrop-filter: blur(3px);
+}
