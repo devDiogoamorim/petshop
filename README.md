@@ -15,5 +15,4 @@ Este projeto é um sistema simples de agendamentos para serviços pet, permitind
 ✅ Seleção de serviço desejado <br/>
 ✅ Escolha de data e horário do agendamento <br/>
 ✅ Validação de formulário <br/>
-✅ Reset automático dos campos após envio do formulário <br/>
 ✅ Consumo de API fake usando JSON Server
